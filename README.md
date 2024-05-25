@@ -30,9 +30,6 @@ quelque capture d'ecran :
 
 
 ![demo1](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/a741b749-6744-44b3-8a41-6d4c4a2ff5ed)
-
-
-![login](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/09be13a9-5594-4f35-a334-5911ae660e20)
 ![demo2](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/dfc0d687-c5c0-4de5-9ddf-4eacee31aa80)
 ![demo3](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/46d319eb-a197-49cd-962f-fb0dfe856b50)
 ![demo4](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/cb37a994-523a-4be3-8557-4fd8df38159e)
@@ -48,11 +45,12 @@ quelque capture d'ecran :
 ![ingredients](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/6be9ce1f-3b4a-424a-a1de-96b93a22da68)
 ![ValeurNutritionnelle](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/5deab41b-87db-47fd-8364-6288418135b4)
 ![AjouterAuCalendrier](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/f9af24ef-490d-4099-905c-f1030d6edc26)
-![recetteInfo](https://githu![Recettesasaptees](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/f06ea64b-88da-47d6-aee7-b5faf566761b)
-b.com/ichrakbouafif/ProjetPCD/assets/122936609/ec0240bc-632b-499c-b86a-f6eec438141e)
-![restriction](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/8590b051-3110-427e-9eb0-4f8387b25335)
+![recetteInfo](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/250de8ac-70f5-49b5-b4e5-ca559f393d54)
 ![signup](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/b9fca887-1259-4d8f-9c8c-234f6a533fb5)
+![login](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/09be13a9-5594-4f35-a334-5911ae660e20)
+![Recettesasaptees](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/e06627aa-7d36-4631-8eac-4a33fd969afa)
+![restriction](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/8590b051-3110-427e-9eb0-4f8387b25335)
 ![Uploading Recettesasaptees.png…]()
 
 
-lien de la demo : https://drive.google.com/file/d/1o2mXNWRgFZRd3GasD6LiDgZVH5zuGX_r/view?usp=drive_link
+lien de la video de la demo : https://drive.google.com/file/d/1o2mXNWRgFZRd3GasD6LiDgZVH5zuGX_r/view?usp=drive_link
