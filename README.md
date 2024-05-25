@@ -50,7 +50,7 @@ quelque capture d'ecran :
 ![login](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/09be13a9-5594-4f35-a334-5911ae660e20)
 ![Recettesasaptees](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/e06627aa-7d36-4631-8eac-4a33fd969afa)
 ![restriction](https://github.com/ichrakbouafif/ProjetPCD/assets/122936609/8590b051-3110-427e-9eb0-4f8387b25335)
-![Uploading Recettesasaptees.png…]()
+
 
 
 lien de la video de la demo : https://drive.google.com/file/d/1o2mXNWRgFZRd3GasD6LiDgZVH5zuGX_r/view?usp=drive_link
