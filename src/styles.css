@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poiret+One&display=swap');
+
+:root {
+    --pink: #e35640;
+    --grey: #595959;
+    --black: #000;
+    --white: #fff;
+    --lightgrey: #d5d7d7;
+}
+body{
+	line-height: 1.5;
+    letter-spacing: 2px;
+    background-color: var(--white);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

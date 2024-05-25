@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<app-layout></app-layout>
+
+<div class="recipe-list">
+  <div *ngFor="let recipe of recipes; let i = index" class="recipe">
+    <button class="delete-button" (click)="deleteRecipe(i)">X</button>
+    <div class="recipe-info">
+      <p class="recipe-name">{{ recipe.name }}</p>
+      <div class="recipe-content">
+        <div class="recipe-left">
+          <img [src]="recipe.image" [alt]="recipe.name">
+        </div>
+        <div class="recipe-right">
+          <ul class="ingredients">
+            <li *ngFor="let ingredient of recipe.ingredients">{{ ingredient }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

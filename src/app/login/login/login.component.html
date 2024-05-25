@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+
+<div class="parent">
+  <div class="container" [ngClass]="isSignDivVisiable ? 'active' :'' " id="container">
+      <div class="form-container sign-up" >
+          <form>
+              <h1 style="font-size: 40px;">Créer un compte</h1>
+              <span>ou utilisez votre email pour vous inscrire</span>
+              <input type="text" name="pseudo" [(ngModel)]="signUpObj.name" placeholder="Pseudo" class="gray">
+              <input type="email" name="email" [(ngModel)]="signUpObj.email" placeholder="Email" class="gray">
+              <input type="password" name="password"  [(ngModel)]="signUpObj.password" placeholder="Mot de passe" class="gray">
+              <button (click)="onRegister()">S'inscrire</button>
+          </form>
+      </div>
+      <div class="form-container sign-in" >
+          <form>
+              <h1 style="font-size: 40px;">Se connecter</h1>
+              <span>ou utilisez votre email et mot de passe</span>
+              <input type="email" name="email" [(ngModel)]="loginObj.email" placeholder="Email" class="gray">
+              <input type="password" name="password"   [(ngModel)]="loginObj.password" placeholder="Mot de passe" class="gray">
+              <a href="#">→ Mot de passe oublié ? ←</a>
+              <button (click)="onLogin()">Se connecter</button>
+          </form>
+      </div>
+      <div class="toggle-container">
+          <div class="toggle">
+              <div class="toggle-panel toggle-left">
+                  <h1 style="font-size: 40px;">Bienvenue de retour !</h1>
+                  <p>Entrez vos coordonnées personnelles pour utiliser toutes les fonctionnalités du site</p>
+                  <button type="button" class="hidden" id="login" (click)="isSignDivVisiable = false">Se connecter</button>
+              </div>
+              <div class="toggle-panel toggle-right">
+                  <h1 style="font-size: 40px;">Bienvenue</h1>
+                  <p>Inscrivez-vous avec vos coordonnées personnelles pour utiliser toutes les fonctionnalités du site</p>
+                  <button type="button" class="hidden" id="register" (click)="isSignDivVisiable = true">S'inscrire</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div *ngIf="recipe">
+  <app-recipe-title [title]="recipe?.nom"></app-recipe-title>
+  <div class="buttons">
+    <app-favourite-button></app-favourite-button>
+    <app-cart-button (click)="addRecipe()"></app-cart-button>
+    <app-datepicker></app-datepicker>
+  </div>
+
+  <div class="container">
+    <div class="leftside">
+      <app-recipe-image [imageString]="recipe.image"></app-recipe-image>
+      <app-recipe-information [type]="recipe.type" [tmps_preparation]="recipe.tmps_preparation"
+        [tmps_cuisson]="recipe.tmps_cuisson" [difficulte]="recipe.difficulte"
+        [nb_personne]="recipe.nb_personne"></app-recipe-information>
+      <app-recipe-ingredients [recipe]="recipe"></app-recipe-ingredients>
+      <app-recipe-nutrition [recipe]="recipe"></app-recipe-nutrition>
+    </div>
+
+    <div class="rightside">
+      <app-recipe-description [description]="recipe?.description"></app-recipe-description>
+      <app-recipe-instructions [instructionString]="recipe.instruction"></app-recipe-instructions>
+      <app-recipe-properties [propertiesString]="recipe?.propriete"></app-recipe-properties>
+      <div>
+        <app-comments></app-comments>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,177 @@
+:root {
+    --shadow: rgba(56, 126, 47, 0.15) 0px 5px 15px 0px;
+    --white: #ffffff;
+    --pink: #ff6f61;
+    --margin-top: 100px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: var(--margin-top) auto;
+    box-shadow: var(--shadow); /* Add shadow to the search bar container */
+    border-radius: 50px; /* Ensure rounded corners match the search bar */
+    background-color: var(--white); /* Background color for container */
+    margin-bottom: 100px;
+    padding: 10px; /* Optional: add padding to give more space around the search bar */
+    display: relative;
+    
+}
+ 
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px; /* Ensure it doesn't exceed the parent container */
+    border-radius: 50px;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    margin: 0 20px; /* Adjust this for your needs */
+    border: 1px solid var(--lightgrey);
+    padding: 0;
+}
+
+.dropdown {
+    position: relative;
+    flex: 1;
+    max-width: 280px;
+    border-radius: 50px;
+    border: 1px solid var(--white);
+    background-color: var(--pink);
+    cursor: pointer;
+}
+
+.dropdown-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    padding: 1rem 1.5rem;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: var(--white);
+    transition: max-height 0.5s;
+    padding-right: 20px;
+}
+
+#list.show {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.dropdown-list::-webkit-scrollbar {
+    width: 12px;
+}
+
+.dropdown-list::-webkit-scrollbar-thumb {
+    background-color: var(--pink);
+    border-radius: 10px;
+    border: 3px solid var(--white);
+}
+
+.dropdown-list::-webkit-scrollbar-track {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.dropdown-list-item {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 1rem 0 1rem 1.5rem;
+    cursor: pointer;
+    transition: margin-left 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.dropdown-list-item:hover {
+    margin-left: 0.5rem;
+    color: var(--pink);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    width: 100%;
+    color: var(--pink);
+   
+}
+
+.search-box input {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--pink);
+    border: 0;
+    outline: 0;
+}
+
+.search-box i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.search-box input::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--pink);
+}
+
+
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-list.show {
+    display: block;
+  }
+  
+  .dropdown-list-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 50px;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    margin: 0 20px;
+    padding: 0;
+    position: relative; /* Ensure it stays in place */
+  }
+  .search-button {
+    background-color: white; /* Set background color to white */
+    border: none; /* Remove button border */
+    padding: 0; /* Remove padding to make the button fit the icon */
+  }
+  
+  .search-button i {
+    color: var(--pink); /* Set icon color to pink */
+  }
+  

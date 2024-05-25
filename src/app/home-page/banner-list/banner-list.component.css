@@ -1,0 +1,63 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center elements vertically */
+    /*margin-top: 50px;
+    margin-bottom: 50px;*/
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Styles for the list */
+.flex-item-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove list bullets */
+    width: 100%; /* Full width list */
+}
+
+/* Styles for each flex item */
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents horizontally */
+    justify-content: center; /* Center contents vertically */
+    width: calc(100% / 6); /* Divide container into 6 equal parts */
+    padding: 10px; /* Padding around each item */
+}
+.flex-item:not(:last-child) {
+    border-right: 1px solid var(--lightgrey); /* Adjust the width and color as desired */
+}
+/* Styles for images */
+.flex-item img {
+    max-width: 100%; /* Ensure the image scales with its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+    transition: transform 0.3s ease-in-out;
+}
+.flex-item:hover img {
+    transform: translateY(-5px); /* Adjust the value as desired for the translation */
+}
+/* Styles for links */
+.flex-item a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use inherited color */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    flex-direction: column;
+}
+
+/* Styles for headings */
+.flex-item h6 {
+    margin-top: 5px; /* Add margin above the heading */
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    color: var(--pink);
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+}

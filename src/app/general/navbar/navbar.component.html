@@ -1,0 +1,27 @@
+<div class="navbar">
+  <div class="navbar-logo">
+    <img src="../../assets/images/logo-no-background.png" alt="logo" routerLink="/">
+  </div>
+<ul class="navbar-links">
+  <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/" class="nav-item">
+    Accueil</a></li>
+  <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/recettes" class="nav-item">Recettes</a></li>
+  <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/testimonials" class="nav-item">Témoignages</a></li>
+  <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/about" class="nav-item">A propos de nous</a></li>
+</ul>
+
+<div class="navbar-icons">
+  <a class="icon" routerLink="/login"><i class="fas fa-user"></i></a>
+  <a href="#" class="icon"><i class="fas fa-search" (click)="toggleSearch()"></i></a>
+
+  <div class="overlay" *ngIf="showSearchBar"></div>
+  <div *ngIf="showSearchBar" class="search-container">
+      <i class="close-icon" (click)="toggleSearch()">X</i>
+
+      <input type="text" placeholder="Que cherchez-vous?"/>
+      <button>Rechercher</button>
+
+  </div>
+</div>
+
+</div>

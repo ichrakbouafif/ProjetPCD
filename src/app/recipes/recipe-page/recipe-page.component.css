@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+
+    gap: 350px;  
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.recipe-title .container {
+    width: 80%;
+    margin: auto;
+    color: aqua;
+     /* Adjust this value according to your needs */
+  }
+
+.buttons{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+  

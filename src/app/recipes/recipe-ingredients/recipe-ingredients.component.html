@@ -1,0 +1,15 @@
+<div class="container">
+  <h3>Ingrédients</h3>
+  <div class="sub-ingredients" *ngFor="let category of ingredientsList">
+    <h4 class="header" *ngIf="category.category !== 'No header found'">{{ category.category }}</h4>
+    <div class="content" *ngFor="let ingredient of category.ingredients">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+      <div class="ingredient">{{ ingredient }}</div>
+    </div>
+  </div>
+</div>

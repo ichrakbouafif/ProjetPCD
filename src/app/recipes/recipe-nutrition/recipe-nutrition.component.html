@@ -1,0 +1,11 @@
+<div class="container">
+  <h3>Valeur nutritionnelle</h3>
+  <div class="calories">
+      <div class="titre">Calories</div>
+      <div class="valeur">{{ recipe.calories }}</div>
+  </div>
+  <div class="content" *ngFor="let key of nutritionKeys">
+      <div class="titre">{{ key }}</div>
+      <div class="valeur">{{ nutrition[key] }}</div>
+  </div>
+</div>

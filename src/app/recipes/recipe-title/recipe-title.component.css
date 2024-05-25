@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    width: 80%;
+   padding-top: 30px;
+}
+h1{
+    font-family: "Dancing Script";
+    font-size: 3rem;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+}

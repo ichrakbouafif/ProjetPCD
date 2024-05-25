@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+<div class="search-bar-container">
+  <div class="search-bar">
+    <div class="dropdown">
+      <div id="drop-text" class="dropdown-text">
+        <span id="span">{{ selectedValue }}</span>
+        <!-- Correct class name for dropdown arrow -->
+        <i id="icon" class="fas fa-chevron-down"></i>
+      </div>
+      <ul id="list" class="dropdown-list">
+        <li class="dropdown-list-item">Tout</li>
+        <li class="dropdown-list-item">Apéritif</li>
+        <li class="dropdown-list-item">Entrée</li>
+        <li class="dropdown-list-item">Plat</li>
+        <li class="dropdown-list-item">Dessert</li>
+        <li class="dropdown-list-item">Goûter</li>
+        <li class="dropdown-list-item">Accompagnement</li>
+        <li class="dropdown-list-item">Boisson</li>
+        <li class="dropdown-list-item">Autre</li>
+      </ul>
+    </div>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Rechercher une recette..." [(ngModel)]="searchQuery">
+      <button class="search-button" (click)="search()">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+  </div>
+</div>

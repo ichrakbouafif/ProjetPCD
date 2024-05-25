@@ -1,0 +1,248 @@
+<app-navbar></app-navbar>
+<app-layout></app-layout>
+
+<div class="main-content">
+  <div class="container">
+    <div class="firstdiv">
+      <div class="row1">
+        <div class="profile">
+          <div class="profile--user">
+            <img src="../../../assets/images/user-avatar.jpg" alt="Profile of user" class="profile--user__picture">
+            <h1>
+              <span class="profile--user__name">Pseudo Utilisateur</span>
+              <span class="profile--user__country-state">nouveau utilisateur</span>
+            </h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hello">
+        <h1>Bonjour</h1>
+        <p>Ceci est votre page de profil. Vous pouvez découvrir de nouvelles recettes, gérer vos préférences alimentaires, spécifier vos restrictions alimentaires et consulter la liste de vos recettes favorites. C'est l'endroit idéal pour explorer de délicieuses options culinaires et suivre votre progression dans le monde de la cuisine.</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container-fluid mt--7">
+    <div class="row justify-content-center">
+      <div class="col-xl-8">
+        <div class="card bg-secondary shadow">
+          <div class="card-header border-0" style="background-color: lightgray;" >
+              <div class="col-8" >
+                <h3 class= "part3h3" style="font-size: 50px;" >Mon compte</h3>
+              </div>
+          </div>
+          <form>
+            <h3>Informations utilisateur</h3>
+            <div class="roww">
+              <div class="pseudo">
+                <label for="input-username">Pseudo</label>
+                <input type="text" id="input-username" placeholder="Pseudo" value="Pseudo">
+              </div>
+
+              <div class="email">
+                <label for="input-email">Adresse e-mail</label>
+                <input type="email" id="input-email" placeholder="example@example.com">
+              </div>
+
+            </div>
+
+
+            <!-- Liste de cases à cocher pour les restrictions alimentaires -->
+            <h3>Restrictions alimentaires</h3>
+            <div class="form-group">
+
+              <div class="check">
+                <input  id="Sans fruit à coque" type="checkbox">
+                <label for="Sans fruit à coque">Sans fruit à coque</label>
+              </div>
+
+              <div class="check">
+                <input  id="végétarien" type="checkbox">
+                <label  for="végétarien">végétarien</label>
+              </div>
+
+              <div class="check">
+                <input  id="Végan" type="checkbox">
+                <label for="Végan">Végan</label>
+              </div>
+
+              <div class="check">
+                <input  id="sans-sucre-ajouté" type="checkbox">
+                <label for="sans-sucre-ajouté">Sans sucre ajouté</label>
+              </div>
+
+              <div class="check">
+                <input  id="sans-oeuf" type="checkbox">
+                <label  for="sans-oeuf">Sans œuf</label>
+              </div>
+              <div class="check">
+                <input  id="sans-lactose" type="checkbox">
+                <label for="sans-lactose">Sans lactose</label>
+              </div>
+
+              <div class="check">
+                <input  id="sans-gluten" type="checkbox">
+                <label for="sans-gluten">Sans gluten</label>
+              </div>
+            </div>
+
+            <h3>Vos préférences culinaires</h3>
+            <p>En renseignant vos préférences culinaires, votre expérience serait personnalisée et les recettes recommandées sont encore plus pertinentes. Ces choix n'affectent pas vos résultats de recherche.</p>
+            <div class="culinaires">
+              <a href="#" class="button vegetarien">+ Régime végétarien</a>
+              <a href="#" class="button quotidien">+ Facile pour le quotidien</a>
+              <a href="#" class="button creatif">+ Créatif et aventurieux</a>
+              <a href="#" class="button traditionnel">+ Cuisine traditionnelle</a>
+              <a href="#" class="button vegetarien">+ Régime Pescétarien</a>
+              <a href="#" class="button quotidien">+ Régime Fruitarien</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="part3">
+  <h3 class="part3h3">Liste des recettes favoris</h3>
+
+  <div class="fav">
+    <div class="recipe-card">
+      <a href="">
+          <div class="image-container">
+              <img src="../../../assets/images/donuts.png"
+               alt="ff"   >
+              <div class="overlay">
+                  <!-- Add the content you want to display over the image here -->
+                  <p>Préparation: 20min</p>
+                  <p>Cuisson: 4h</p>
+                  <p>serve: 15 personnes</p>
+                  <p>difficulté: facile</p>
+              </div>
+          </div>
+          <h3 class="recipe-type">Dessert</h3>
+
+          <h2 class="recipe-title">
+            Donuts À L'américaine
+          </h2>
+          <hr>
+          <div class="desc">
+              <div class="cooking-time">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>4hours</span>
+              </div>
+              <div class="recipe-difficulty">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <span>Facile</span>
+              </div>
+          </div>
+      </a>
+    </div>
+    <div class="recipe-card">
+      <a href="">
+          <div class="image-container">
+              <img src="https://www.ptitchef.com/imgupl/recipe/mini-croissants-aperitif-pizza-au-jambon-et-fromage--lg-438308p730238.jpg"
+                  alt="imagerecette">
+              <div class="overlay">
+                  <!-- Add the content you want to display over the image here -->
+                  <p>Préparation: 15min</p>
+                  <p>Cuisson: 20min</p>
+                  <p>serve: 8 personnes</p>
+                  <p>difficulté: facile</p>
+              </div>
+          </div>
+          <h3 class="recipe-type">apéritifs</h3>
+          <h2 class="recipe-title">
+            Mini Croissants Apéritif
+          </h2>
+          <hr>
+          <div class="desc">
+              <div class="cooking-time">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>20min</span>
+              </div>
+              <div class="recipe-difficulty">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <span>Facile</span>
+              </div>
+          </div>
+      </a>
+    </div>
+    <div class="recipe-card">
+      <a href="">
+          <div class="image-container">
+              <img src="../../../assets/images/dorade-mijotee.png"
+                  alt="imagerecette">
+              <div class="overlay">
+                  <!-- Add the content you want to display over the image here -->
+                  <p>Préparation: 30min</p>
+                  <p>Cuisson: 20min</p>
+                  <p>serve: 4 personnes</p>
+                  <p>difficulté: facile</p>
+              </div>
+          </div>
+          <h3 class="recipe-type">Plat</h3>
+          <h2 class="recipe-title">
+            Dorade Mijotée Au Lait Coco
+          </h2>
+          <hr>
+          <div class="desc">
+              <div class="cooking-time">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>20min</span>
+              </div>
+              <div class="recipe-difficulty">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <span>Facile</span>
+              </div>
+          </div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Inside the HTML template -->
+<div class="part3">
+  <h3 class="part3h3">Recettes Adaptées à Vos Goûts</h3>
+  <div class="container">
+  
+    <div *ngFor="let recette of recommendations" class="recipe-card">
+      <a href="">
+        <div class="image-container">
+          <!-- Bind the first image in the array using Angular's interpolation -->
+          <img [src]="sanitizeUrl(recette.image[0])" alt="Image of {{recette.nom}}">
+          <div class="overlay">
+            <p>Préparation: {{recette.tmps_preparation}}</p>
+            <p>Cuisson: {{recette.tmps_cuisson}}</p>
+            <p>Serve: {{recette.nb_personne}}</p>
+            <p>Difficulté: {{recette.difficulte}}</p>
+          </div>
+        </div>
+        <h3 class="recipe-type">{{recette.type}}</h3>
+        <h2 class="recipe-title">{{recette.nom}}</h2>
+        <hr>
+        <div class="desc">
+          <div class="cooking-time">
+            <i class="fa-regular fa-clock"></i>
+            <span>{{recette.tmps_cuisson}}</span>
+          </div>
+          <div class="recipe-difficulty">
+            <i class="fa-regular fa-thumbs-up"></i>
+            <span>{{recette.difficulte}}</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
+
+<app-footer></app-footer>
+
+
+

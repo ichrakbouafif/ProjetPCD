@@ -1,0 +1,27 @@
+.container{
+    /*width: 35%;*/
+    display: flex;
+}
+/*.container{
+    display: flex;
+    margin-left:50%;
+    width: 40%;
+    margin-bottom: 80px;
+    margin-top: -400px;
+}*/
+.container > div {
+    flex: 1;
+}
+.content{
+    border: 1px solid var(--lightgrey);
+    border-top: 5px solid var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+.propertie{
+    padding: 10px;
+    text-align: center;
+}

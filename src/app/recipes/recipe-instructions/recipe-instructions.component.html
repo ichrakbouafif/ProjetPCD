@@ -1,0 +1,7 @@
+<div class="container">
+    <h1>Instructions</h1>
+    <div *ngFor="let instruction of instructions; let i = index" class="instructions">
+        <div class="counter">{{i + 1}}.</div>
+        <div class="instruction">{{instruction}}</div>
+    </div>
+</div>

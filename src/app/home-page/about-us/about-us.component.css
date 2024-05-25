@@ -1,0 +1,101 @@
+section{
+    padding: 4% 10%;
+    width: 80%;
+    margin: auto;
+}
+.about-us{
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url("../../../assets/images/dotpattern.png");
+    background-size: auto;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+.main-img img{
+    max-width: 100%;
+    width: 560px;
+    height: auto;
+}
+.text{
+    padding: 6% 0;
+}
+.text h4{
+    color: var(--pink);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    font-family: 'Poiret One', sans-serif;
+}
+.text h1{
+    color: var(--black);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 800;
+    line-height: 46px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', sans-serif;
+}
+hr{
+    width: 30%;
+    border: none;
+    height: 2px;
+    background-color: var(--pink)
+}
+.text p{
+    max-width: 600px;
+    color: var(--grey);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.last-text{
+    display: flex;
+}
+.text1{
+    margin-right: 60px;
+}
+.last-text h3{
+    color: var(--pink);
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Dancing Script', sans-serif;
+}
+.last-text h5{
+    color: var(--black);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+@media(max-width:1385px){
+    section{
+        padding: 4% 4%;
+        transition: .3s;
+    }
+    .main-img img{
+        width: 500px;
+        height: auto;
+        transition: .3s;
+    }
+}
+@media(max-width:1240px){
+    .text h1{
+        font-size: 30px;
+        transition: .3s;
+    }
+}
+@media(max-width:1040px){
+    .about-us{
+        grid-template-columns: 1fr;
+        height: 100;
+    }
+    .main-img img{
+        padding-top: 40px;
+    }
+}

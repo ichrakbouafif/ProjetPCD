@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poiret+One&display=swap');
+/* fav */
+body{
+    background-color:white;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.hello h1 ,.part3h3{
+  font-family: 'Dancing Script';
+  font-size: 50px;
+}
+.fav{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+.recipe-card {
+    width: 300px;
+    overflow: hidden;
+    
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-top: 35px;
+}
+h2 ,h3 {
+  color: black;
+  font-family: 'Open Sans';
+}
+label{
+  font-family: 'Open Sans';
+}
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 97%;
+    /* Add any additional styling to the overlay here */
+    background-color: rgba(0, 0, 0, 0.5); /* Example: a semi-transparent background */
+    color: white; /* Example: text color */
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+    /* Adjust these to position the content */
+    font-family: "Poiret One", sans-serif;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between; /* Ensures elements are spaced apart, one at each edge */
+    align-items: flex-end; /* Aligns elements to the bottom */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+.image-container:hover .overlay {
+    opacity: 1; /* Show the overlay */
+    visibility: visible; /* Show the overlay */
+    cursor: pointer;
+}
+
+.recipe-title:hover {
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+/* fav */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstdiv {
+  flex: 1;
+}
+
+.hello {
+  flex: 2;
+  align-items: center;
+  margin: 50px;
+  margin-top: 150px;
+}
+
+/* begin profile
+@charset "UTF-8";*/
+
+.row1 {
+    max-width: 50rem;
+    margin-left: 100px;
+}
+
+.profile {
+    margin: 20% 28%;
+    width: 65%;
+    background: linear-gradient(168deg, var(--pink),  #d68275);
+    color: black;
+    border-radius: 1rem;
+    padding:0 1rem 2rem 1rem;
+}
+
+.profile--icon {
+    display: block;
+    padding: 1rem 0;
+}
+
+.profile--icon a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.profile--user { text-align: center; }
+.profile--user img {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 10px;
+    border: .3rem solid #070404;
+}
+
+.profile--user h1 {
+    margin-top: 1rem;
+    letter-spacing: .1rem;
+    line-height: 2.1rem;
+    font-weight: 300;
+}
+.profile--user h1 .profile--user__name,
+.profile--user h1 .profile--user__country-state { display: block; }
+.profile--user h1 .profile--user__name { font-size: 1.65rem; }
+.profile--user h1 .profile--user__country-state { font-size: .9rem; }
+
+.profile--info {
+    list-style: none;
+    margin-top: 2rem;
+}
+.profile--info li {
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+.profile--info li:last-child { padding-right: 0; }
+.profile--info__number {
+    font-weight: 300;
+    font-size: 2rem;
+    display: block;
+}
+.profile--info__heading {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+/* end profile */
+
+.col-4,
+.col-8,
+.col,
+.col-md-10,
+.col-md-12,
+.col-lg-3,
+.col-lg-4,
+.col-lg-6,
+.col-lg-7,
+.col-xl-4,
+.col-xl-6,
+.col-xl-8 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.col-4 {
+  max-width: 33.33333%;
+  flex: 0 0 33.33333%;
+}
+
+.col-8 {
+  max-width: 66.66667%;
+  flex: 0 0 66.66667%;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1 1;
+}
+
+.bg-secondary {
+  background-color: lightgray !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+a.bg-white:hover,
+a.bg-white:focus,
+button.bg-white:hover,
+button.bg-white:focus {
+  background-color: lightgray !important;
+}
+
+.bg-gradient-default {
+  background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+}
+.opacity-8 {
+  opacity: .9 !important;
+}
+
+.center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .15s ease;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.description {
+  font-size: .875rem;
+}
+
+.heading {
+  font-size: .95rem;
+  font-weight: 600;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+
+.heading-small {
+  font-size: .75rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.culinaires {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+}
+.vegetarien {
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+.quotidien {
+  border-color: #9C27B0;
+  color: #9C27B0;
+}
+.creatif {
+  border-color: #FF9800;
+  color: #FF9800;
+}
+.traditionnel {
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.card {
+  border: none;
+  padding: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.header {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.25rem;
+}
+.btn {
+  background-color: lightgray;
+  color: #1a174d;
+}
+.header .btn {
+  font-size: 1.25rem;
+  padding: 0.75rem 2rem;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Form Styles */
+.card-header {
+  padding: 1.25rem 1.5rem;
+}
+
+.card-header h3 {
+  font-size: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.check {
+  flex: 0 0 30%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the checkboxes */
+.check input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="checkbox"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-top: 0;
+  margin-right: 0.5rem;
+}
+
+
+.roww {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.pseudo,
+.email {
+  flex: 0 0 50%;
+  padding: 0 15px;
+  box-sizing: border-box;
+
+}
+
+
+.user-info {
+  width: 20%;
+  margin: 20px;
+}
+
+.user-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.user-name {
+  text-align: center;
+  margin-top: 10px;
+}
+.part3{
+  margin: 100px;
+}
+
+

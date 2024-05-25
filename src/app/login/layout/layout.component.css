@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poiret+One&display=swap');
+
+:root{
+    --pink: #e35640;
+    --grey: #595959;
+    --black: #000;
+    --white: #fff;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Open sans', sans-serif;
+    letter-spacing: 2px
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+  font-size: 18px;
+}
+.active{
+  background-color: lightgray;
+  border: 2px solid #e35640;
+  color: black;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn-custom {
+  border: 1px solid black; /* Set the border to black */
+  background-color: lightgray; /* Set the default background color */
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px; /* Set the text color */
+  margin-right: 20px;
+}
+
+.btn-custom:hover {
+  background-color: #EAE0D9; /* Set the background color on hover */
+  cursor: pointer;
+}
+ul {
+  list-style-type: none; /* Removes the bullets */
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  color: black; /* Set the link color */
+  text-decoration: none; /* Remove underlines */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+li {
+  display: inline; /* Display list items horizontally */
+}
+
+.navbar-nav{
+  flex: 1;
+  padding: 10px;
+  margin-top: 20px; /* Add margin-top */
+  cursor: pointer;
+}
+.container-fluid{
+  display: flex;
+}
+.d-flex {
+  flex:2;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+   /* Add margin-top */
+
+  /* Align content to the left */
+}
+
+
+

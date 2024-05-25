@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-sm" style="background-color: lightgray; height: 80px; margin-top: -19px;">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" style="color: black;" routerLink="/dashboard">Mon Compte</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" style="color: black;" routerLink="/cal">Calendrier</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" style="color: black;" routerLink="/listecourses">Liste des courses</a>
+      </li>
+    </ul>
+    <form class="d-flex">
+      <span style="color: black; padding: 7px;">usergmail.com</span>
+      <button class="btn btn-custom" type="button">
+        <a routerLink="/" style="text-decoration: none; color: inherit;">Se déconnecter</a>
+      </button>
+    </form>
+  </div>
+</nav>
